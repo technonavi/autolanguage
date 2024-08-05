@@ -1,0 +1,14 @@
+概要:本システムはyahoo知恵袋にある文章の抽出を行い、pythonのmecabを用いて日本語の自然言語処理を行うプログラムです。
+yahooscraping.pyはスクレイピング（web上のデータ収集を行うpyファイル）で
+language_analysize.pyはmecabを用いて自然言語処理を行うpyファイルで文章の特徴量を読み取り
+文章を書いた人物の年齢を判別するプログラムです
+
+
+yahooscraping.pyのurls.csv内にあるcsvに記載されているurlの読み取りを行いscraping_content.csvに
+url内に記述されていた質問記事の内容の抽出されたテキストの記載をcsvファイルに行う
+
+
+
+language_analysize.pyは言語用学習データに書かれたcsvファイルの特徴量を読み取り、test_data.csvの
+テキストを年齢判別をし年齢別文章予測結果.csvに出力を行った。
+
